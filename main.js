@@ -89,7 +89,7 @@ function decode() {
 
 function clear() {
   $input.value = '';
-  $output.innerHTML = '<span class="placeholder">JSON output will appear here...</span>';
+  $output.innerHTML = '<span class="placeholder">JSON output will appear here</span>';
   $badge.hidden = true;
   resetStats();
 }
