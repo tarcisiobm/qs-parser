@@ -1,0 +1,7 @@
+[
+  "user%5Bname%5D=John&user%5Bage%5D=30&tags%5B0%5D=admin&tags%5B1%5D=active&page=1&limit=25",
+  "filters%5Bstatus%5D=enabled&filters%5Brole%5D=editor&sort=name&order=asc",
+  "product%5Btitle%5D=Keyboard&product%5Bprice%5D=99.90&product%5Bspecs%5D%5Bcolor%5D=black&product%5Bspecs%5D%5Bweight%5D=500g",
+  "search=hello+world&category%5B0%5D=books&category%5B1%5D=games&lang=en",
+  "address%5Bstreet%5D=Main+St&address%5Bcity%5D=Springfield&address%5Bcoords%5D%5Blat%5D=39.78&address%5Bcoords%5D%5Blng%5D=-89.65"
+]

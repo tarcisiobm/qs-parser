@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QS Parser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Syne:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <span class="logo">QS Parser</span>
+    <span class="tagline">query string <-> json</span>
+  </header>
+
+  <main>
+    <section class="panel">
+      <span class="panel-label">Input — Query String</span>
+      <textarea id="input" placeholder="Paste a query string here"></textarea>
+      <div class="controls">
+        <button id="btn-decode">Decode</button>
+        <button id="btn-clear" class="ghost">Clear</button>
+        <button id="btn-example" class="ghost">Example</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <span class="panel-label">
+        Output — JSON
+        <span id="badge" hidden></span>
+      </span>
+      <div id="output" class="output-box">
+        <span class="placeholder">JSON output will appear here</span>
+      </div>
+      <div class="controls">
+        <button id="btn-copy" class="ghost">Copy JSON</button>
+        <span id="copy-confirm" hidden>copied ✓</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Keys: <strong id="stat-keys">—</strong></span>
+    <span>Depth: <strong id="stat-depth">—</strong></span>
+    <span>Params: <strong id="stat-params">—</strong></span>
+  </footer>
+
+  <script src="parser.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
