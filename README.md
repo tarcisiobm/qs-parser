@@ -3,7 +3,7 @@
 Simple project that converts URL query strings into nested JSON with bracket notation support.
 Most query string parsers treat bracket notation as flat keys. This one actually resolves into nested JSON.
 
-**[access here](https://tarcisio.github.io/qs-parser/)**
+**[access here](https://tarcisiobm.github.io/qs-parser/)**
 
 ## Features
 
